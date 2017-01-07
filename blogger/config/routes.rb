@@ -1,4 +1,4 @@
-Blogger::Application.routes.draw do
+Rails.Application.routes.draw do
 	root 'drinks#index'
 	root to: 'articles#index'
 	resources :articles do
